@@ -1,19 +1,19 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 
 /**
- * main - Putchar
- *
+ * main - prints the alphabet in lowercase,
+ * followed by a new line
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-char a;
-for (a = 'a'; a <= 'z'; a++)
-{
-putchar(a);
+	char ch;
+
+	for (ch = 'a'; ch <= 'z'; ch++)
+	{
+		putchar(ch);
+	}
+	putchar('\n');
+	return (0);
 }
-putchar('\n');
-return (0);
-i}
+
