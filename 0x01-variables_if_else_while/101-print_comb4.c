@@ -8,12 +8,12 @@
 
 int main(void)
 {
-int i, j;
+int i, j, k;
 for (i = 48; i <= 57; i++)
 {
 for (j = i + 1; j <= 57; j++)
 {
-for (int k = j + 1; k <= 57; ++k)
+for (k = j + 1; k <= 57; ++k)
 {
 if (i != j && j != k)
 {
